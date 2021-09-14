@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "RemoveAnucioGoogle",
+  "version": "0.1",
+  "browser_action": {},
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
